@@ -15,6 +15,9 @@
     * Création/ gestion league + score board  OCE ZI 
     * Matchups OCE
     ###* Front###
+    
+Front :
+- Utiliser MDB
 
 Inscription / connexion : 
 - Interface de connexion --> via mail / via pseudo / via google / via facebook / via twitch
@@ -27,10 +30,11 @@ Inscription / connexion :
 Utilisateurs : 
 - Création profil, biographie, choix de jeux, avatar
 - Inscription aux matchs
+- [+ tard : Modérateurs / gestion de rôles]
 - [+ tard : compétitif : regles + strictes d'appartenance à plusieurs équipes-- gestion de tournois]
 
 Création de league + score board : 
-  - Menu : selection du nom de la league, le jeu, nombre de participants et nombre de rencontres 
+  - Menu : selection du nom de la league, le jeu, nombre de participants et nombre de rencontres, privacy de la league, autorisation de modification de league
   --> nombre de match et classement qui en découle
   - Gestion de la league : modification des infos de la league , selection des joueurs (des profils)
   - score board ([+ tard] affichage à définir en fonction du jeu)

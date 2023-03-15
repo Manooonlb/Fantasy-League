@@ -12,14 +12,14 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
 </head>
 
-<body>
+<body class="bg-dark bg-gradient">
     
     <?php
     require('config.php');
     include_once ('nav.php');
 
     ?>
-    <main class="text-center">
+    <main class="text-warning text-opacity-75 text-center">
     <?php
     if (!isset($_SESSION['username'])) {
         include_once('login.php');

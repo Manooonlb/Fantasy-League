@@ -1,12 +1,14 @@
 <form>
     <h2>Login</h2>
-    <div class="form-group">
-        <label name="username">Username</label>
-        <input type="text" name="username" required>
-    </div>
-    <div class="form-group">
-        <label name="password">Password</label>
-        <input type="password" name="password" required>
-    </div>
-    <input type="submit" value="Click me!">
+
+<img src="assets\fantasy-league-low-resolution-logo-white-on-transparent-background.png" alt="The website's logo.">
+
+<form class="container">
+    <input type="submit" value="Connexion avec Twitch" class="btn btn-warning">
+</form>
+<form class="container">
+    <input type="submit" value="Connexion avec Google" class="btn btn-danger">
+</form>
+<form class="container">
+    <input type="submit" value="Connexion par email" class="btn btn-primary">
 </form>

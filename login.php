@@ -1,11 +1,11 @@
-<img src="assets\fantasy-league-low-resolution-logo-white-on-transparent-background.png" alt="The website's logo.">
+<img src="assets\fantasy-league-low-resolution-logo-white-on-transparent-background.png" alt="<?=TXT_LOGO_ALT?>">
 
 <form class="container">
     <input type="submit" value="<?=TXT_CONNECTION_TWITCH?>" class="btn btn-warning">
 </form>
 <form class="container">
-    <input type="submit" value="Connexion avec Google" class="btn btn-danger">
+    <input type="submit" value="<?=TXT_CONNECTION_GOOGLE?>" class="btn btn-danger">
 </form>
 <form class="container">
-    <input type="submit" value="Connexion par email" class="btn btn-primary">
+    <input type="submit" value="<?=TXT_CONNECTION_MAIL?>" class="btn btn-primary">
 </form>

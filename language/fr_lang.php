@@ -3,6 +3,10 @@
 define('TXT_CONNECTION_TWITCH','Connexion avec Twitch');
 define('TXT_CONNECTION_GOOGLE','Connexion avec Google');
 define('TXT_CONNECTION_FACEBOOK','Connexion avec Facebook');
+define('TXT_CONNECTION_MAIL', 'Connexion par email');
+
+// IMAGES ALT
+define('TXT_LOGO_ALT', "Le logo du site.");
 
 
 // FOOTER // 

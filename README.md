@@ -1,5 +1,7 @@
 # Fantasy-League
 
+Application de gestion de ligues & tournois.
+
 ## Fonctionnalités à 2 semaines
 * Inscription --> profil utilisateur / connexion 
 * Création et gestion de league --> inscription aux leagues /macths (notion de league full)

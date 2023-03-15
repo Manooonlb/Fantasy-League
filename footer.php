@@ -1,8 +1,5 @@
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-dark text-muted">
- <!-- Section: Social media -->
-  
-  <!-- Section: Social media -->
 
   <!-- Section: Links  -->
   <section class="text-center">

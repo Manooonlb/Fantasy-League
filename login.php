@@ -1,6 +1,3 @@
-<form>
-    <h2>Login</h2>
-
 <img src="assets\fantasy-league-low-resolution-logo-white-on-transparent-background.png" alt="The website's logo.">
 
 <form class="container">

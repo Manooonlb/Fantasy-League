@@ -22,7 +22,7 @@
       <a href="" class="me-4 text-reset">
         <i class="fab fa-instagram"></i>
       </a>
-      <a href="" class="me-4 text-reset">
+      <a href="" class="me-4 text-resest">
         <i class="fab fa-linkedin"></i>
       </a>
       <a href="" class="me-4 text-reset">

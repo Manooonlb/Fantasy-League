@@ -1,3 +1,28 @@
+<?php
+if(isset($_COOKIE['lang'])){
+    $lang=$_COOKIE['lang'];
+}
+elseif(isset($_GET['lang'])){
+    $lang=$_GET['lang'];
+}
+else{
+    $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+}
+
+if ($lang =='fr'){
+    include_once('language/fr_lang.php');
+}
+else if ($lang=='en'){
+    include_once('language/en_lang.php');
+}
+else{
+    include_once('language/fr_lang.php');
+}
+$expire= 365*24*3600;
+setcookie('lang', $lang, time() +$expire);
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -37,6 +62,7 @@
 
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+    
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 <img src="assets\fantasy-league-low-resolution-logo-white-on-transparent-background.png" alt="The website's logo.">
 
 <form class="container">
-    <input type="submit" value="Connexion avec Twitch" class="btn btn-warning">
+    <input type="submit" value="<?=TXT_CONNECTION_TWITCH?>" class="btn btn-warning">
 </form>
 <form class="container">
     <input type="submit" value="Connexion avec Google" class="btn btn-danger">

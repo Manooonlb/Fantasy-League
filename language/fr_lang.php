@@ -1,8 +1,8 @@
 <?php
 // ACCUEIL CONNECTION PAGE// 
-define('TXT_CONNECTION_TWITCH','Connection avec Twitch');
-define('TXT_CONNECTION_GOOGLE','Connection avec Google');
-define('TXT_CONNECTION_FACEBOOK','Connection avec Facebook');
+define('TXT_CONNECTION_TWITCH','Connexion avec Twitch');
+define('TXT_CONNECTION_GOOGLE','Connexion avec Google');
+define('TXT_CONNECTION_FACEBOOK','Connexion avec Facebook');
 
 
 // FOOTER // 

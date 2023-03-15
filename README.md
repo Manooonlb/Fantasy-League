@@ -17,8 +17,8 @@
     ###* Front###
 
 Inscription / connexion : 
-- Interface de connexion --> via mail / via pseudo / via google / via facebook
-- Interface d'inscritpion --> création de compte via mail / via google / via facebook 
+- Interface de connexion --> via mail / via pseudo / via google / via facebook / via twitch
+- Interface d'inscritpion --> création de compte via mail / via google / via facebook / via twitch
 - help FAQ / conditions d'utilisation
 - Contact
 - Réseaux sociaux 

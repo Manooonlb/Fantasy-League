@@ -15,17 +15,23 @@
 <body>
     
     <?php
+    require('config.php');
     include_once ('nav.php');
 
-    // $userLoggedIn = false;
+    ?>
+    <main class="text-center">
+    <?php
+    if (!isset($_SESSION['username'])) {
+        include_once('login.php');
+    }
+    else {
+        include_once('landing_page.php');
+    }
+    ?>
+    </main>
 
-    // if (!$userLoggedIn) {
-    //     include_once('connexion.php');
-    // } else {
-    //     include_once('profile_view.php');
-    // }
 
-
+    <?php
     include_once('footer.php');
     ?>
 

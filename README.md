@@ -38,4 +38,4 @@ Création de league + score board :
 Matchups :
   - Création des rencontres des joueurs, random au départ [+ tard : système de rang, MMR ]
   --> notion d'affichage compliqué ? 
-  - filtres d'affichage par semaine, tri
+  - filtres d'affichage par semaine,

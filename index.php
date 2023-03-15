@@ -35,6 +35,8 @@ setcookie('lang', $lang, time() +$expire);
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
+
+
      <link href="css/style.css" rel="stylesheet" />
 
 </head>

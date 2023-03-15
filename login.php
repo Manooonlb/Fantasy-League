@@ -9,3 +9,8 @@
 <form class="container">
     <input type="submit" value="Connexion par email" class="btn btn-primary">
 </form>
+
+<div>
+    <p>Pas encore inscrit ? <a href="inscription.php">C'est par ici !</a></p>
+    
+</div>

@@ -1,7 +1,11 @@
 <?php
 if(isset($_COOKIE['lang'])){
     $lang=$_COOKIE['lang'];
-}else{
+}
+elseif(isset($_GET['lang'])){
+    $lang=$_GET['lang'];
+}
+else{
     $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 }
 

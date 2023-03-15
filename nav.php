@@ -3,11 +3,11 @@
   <!-- Container wrapper -->
   <div class="container">
     <!-- Navbar brand -->
-    <a class="navbar-brand me-2" href="https://mdbgo.com/">
+    <a class="navbar-brand me-2" href="">
       <img
-        src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+        src=""
         height="16"
-        alt="MDB Logo"
+        alt="Fantasy League Logo"
         loading="lazy"
         style="margin-top: -1px;"
       />

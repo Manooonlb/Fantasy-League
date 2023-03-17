@@ -1,5 +1,4 @@
-<!-- Footer -->
-<footer class="text-center text-lg-start bg-dark text-muted">
+<footer class="text-center text-lg-start bg-dark text-muted fixed-bottom">
 
   <!-- Section: Links  -->
   <section class="text-center">
@@ -17,14 +16,8 @@
       
           <!-- CONDITIONS -->
           <h6 class="text-uppercase fw-bold mb-4">
-           <a href="" class="link-light"> CONDITIONS D'UTILISATION</a>
+           <a href="" class="link-light">CONDITIONS D'UTILISATION</a>
           </h6>
-          
-          
-        
-        <!-- Grid column -->
-
-        <!-- Grid column -->
 
           <!-- FAQ -->
           <h6 class="text-uppercase fw-bold mb-4">

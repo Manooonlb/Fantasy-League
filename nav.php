@@ -1,5 +1,5 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
   <div class="container">
       <!-- Left links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">

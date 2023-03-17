@@ -1,7 +1,7 @@
 <img src="assets\fantasy-league-low-resolution-logo-white-on-transparent-background.png" alt="<?=TXT_LOGO_ALT?>">
 
 <form class="container">
-    <input type="submit" value="<?=TXT_CONNECTION_TWITCH?>" class="btn btn-warning">
+    <input type="submit" value="<?=TXT_CONNECTION_TWITCH?>" class="btn btn-warning btn-twitch">
 </form>
 <form class="container">
     <input type="submit" value="<?=TXT_CONNECTION_GOOGLE?>" class="btn btn-danger">

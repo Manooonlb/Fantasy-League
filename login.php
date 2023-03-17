@@ -11,7 +11,7 @@
 </form>
 
 <div>
-    <p>Pas encore inscrit ? <a href="inscription.php">C'est par ici !</a></p>
+    <p><?=TXT_NOT_SIGNED_UP_YET?> <a href="inscription.php"><?=TXT_THIS_WAY?></a></p>
     
 </div>
 

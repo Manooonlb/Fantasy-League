@@ -5,11 +5,14 @@ $dbName = 'fantasy_league';
 $dbUsername = 'root';
 $dbPassword = '';
 
+
+// Ignore until we can set up DBs
+//
 /* $connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
 if (!$connection) {
     die("ERREUR : Impossible de se connecter. " . mysqli_connect_error());
-} */
+}
 
 try {
     $conn = new PDO("mysql:host=$dbServer;dbname=$dbName", $dbUsername, $dbPassword);
@@ -18,4 +21,4 @@ try {
     // echo "Connected successfully";
   } catch(PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
-  }
+  }*/

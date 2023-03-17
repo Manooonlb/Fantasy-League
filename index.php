@@ -50,12 +50,13 @@ setcookie('lang', $lang, time() +$expire);
     ?>
     <main class="text-warning text-opacity-75 text-center">
     <?php
-    if (!isset($_SESSION['username'])) {
+/*     if (!isset($_SESSION['username'])) {
         include_once('login.php');
     }
     else {
         include_once('landing_page.php');
-    }
+    } */
+    include_once('functions.php');
     ?>
     </main>
 

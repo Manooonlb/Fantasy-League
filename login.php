@@ -1,4 +1,4 @@
-<img src="assets\fantasy-league-low-resolution-logo-white-on-transparent-background.png" alt="<?=TXT_LOGO_ALT?>">
+<img class="py-3" src="assets\fantasyLeague2_trans.png" style="width: 50%;" alt="<?=TXT_LOGO_ALT?>">
 
 <form class="container">
     <input type="submit" value="<?=TXT_CONNECTION_TWITCH?>" class="btn btn-warning btn-twitch">
@@ -12,6 +12,5 @@
 
 <div>
     <p><?=TXT_NOT_SIGNED_UP_YET?> <a href="inscription.php"><?=TXT_THIS_WAY?></a></p>
-    
 </div>
 

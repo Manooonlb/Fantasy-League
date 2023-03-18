@@ -17,6 +17,7 @@ require_once('header.php');
     else {
         include_once('landing_page.php');
     }
+    //include_once('functions.php');
     ?>
 
     </main>

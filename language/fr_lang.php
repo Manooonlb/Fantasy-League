@@ -14,6 +14,12 @@ define('TXT_LOGO_ALT', "Le logo du site.");
 define('TXT_NAV_LEAGUES', "Ligues");
 define('TXT_NAV_MY_PROFILE', "Mon Profil");
 
+// USER
+
+define('TXT_LOGOUT', 'Déconnexion');
+define('TXT_LOGOUT_SUCCESS', "Vous avez bien été déconnecté.e.");
+define('TXT_REDIRECTION', "Vous allez être maintenant redirigé.e vers la page de connexion.");
+
 // FOOTER // 
 
 define('TXT_FOOTER_HOME','Accueil');

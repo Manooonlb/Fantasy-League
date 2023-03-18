@@ -10,6 +10,9 @@ define('TXT_THIS_WAY', "C'est par ici !");
 // IMAGES ALT
 define('TXT_LOGO_ALT', "Le logo du site.");
 
+// NAV
+define('TXT_NAV_LEAGUES', "Ligues");
+define('TXT_NAV_MY_PROFILE', "Mon Profil");
 
 // FOOTER // 
 

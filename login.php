@@ -1,3 +1,4 @@
+
 <img src="assets\fantasy-league-low-resolution-logo-white-on-transparent-background.png" alt="<?=TXT_LOGO_ALT?>">
 
 <form class="container">

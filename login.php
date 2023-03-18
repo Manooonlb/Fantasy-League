@@ -16,19 +16,19 @@ if (!isset($_REQUEST['how'])) { ?>
       <!-- Email input -->
       <div class="form-outline mb-4">
         <input type="email" name="userEmail" class="form-control" />
-        <label class="form-label" for="userEmail">Email address</label>
+        <label class="form-label" for="userEmail"><?=TXT_USER_EMAIL?></label>
       </div>
     
       <!-- Username input -->
       <div class="form-outline mb-4">
         <input type="text" name="username" class="form-control" />
-        <label class="form-label" for="username">Username</label>
+        <label class="form-label" for="username"><?=TXT_USER_USERNAME?></label>
       </div>
 
       <!-- Favorite game input -->
       <div class="form-outline mb-4">
         <input type="text" name="favoriteGame" class="form-control" />
-        <label class="form-label" for="favoriteGame">Favorite Game</label>
+        <label class="form-label" for="favoriteGame"><?=TXT_USER_FAVE_GAME?></label>
       </div>
     
       <!-- 2 column grid layout for inline styling -->
@@ -44,24 +44,23 @@ if (!isset($_REQUEST['how'])) { ?>
               checked
             />
             <label class="form-check-label" for="form1Example3">
-              Remember me
+              <?=TXT_USER_REMEMBER_ME?>
             </label>
           </div>
         </div>
     
         <div class="col">
           <!-- Simple link -->
-          <a href="#!">Forgot password?</a>
+          <a href="#!"><?=TXT_USER_FORGOT_PASSWORD?></a>
         </div>
       </div>
     
       <!-- Submit button -->
-      <button type="submit" name="login" value="true" class="btn btn-primary btn-block">Sign in</button>
+      <button type="submit" name="login" value="true" class="btn btn-primary btn-block"><?=TXT_USER_SIGN_IN?></button>
     </form>
 <?php } ?>
 
 <div>
     <p><?=TXT_NOT_SIGNED_UP_YET?> <a href="inscription.php"><?=TXT_THIS_WAY?></a></p>
-    <p><?php var_dump($_GET); var_dump($_POST); ?></p>
 </div>
 

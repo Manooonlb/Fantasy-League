@@ -11,7 +11,7 @@ require_once('header.php');
     <main class="text-warning text-opacity-75 text-center">
         <p><?=TXT_LOGOUT_SUCCESS?></p>
         <p><?=TXT_REDIRECTION?></p>
-        <?php header('Location: index.php'); ?>
+        <?php header('refresh:3;url=index.php'); ?>
     </main>
 
     <?php

@@ -16,7 +16,7 @@ require_once('header.php');
     }
     else {
         //include_once('landing_page.php');
-        echo "<p>Bienvenue, ".$_SESSION['username'].", your registered email address is ".$_SESSION['email']." and your favorite game is ".$_SESSION['favoriteGame']." !</p>";
+        echo "<p>Bienvenue, ".$_SESSION['username'].", your registered email address is ".$_SESSION['email']." and your favorite game is ".$_SESSION['favoriteGame']." !</p>"; // This isn't translated because this is only a temporary/debug message
         ?>
         <form action="logout.php" method="post" class="container">
             <button type="submit" name="login" value="logout" class="btn btn-danger"><?=TXT_LOGOUT?></button>

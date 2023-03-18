@@ -19,6 +19,12 @@ define('TXT_NAV_MY_PROFILE', "My Profile");
 define('TXT_LOGOUT', 'Logout');
 define('TXT_LOGOUT_SUCCESS', "You've successfully logged out.");
 define('TXT_REDIRECTION', "You've been redirected to the login page.");
+define('TXT_USER_EMAIL', 'Email Address');
+define('TXT_USER_USERNAME', 'Username');
+define('TXT_USER_FAVE_GAME', 'Favorite Game');
+define('TXT_USER_REMEMBER_ME', 'Remember Me?');
+define('TXT_USER_FORGOT_PASSWORD', 'Forgot Password?');
+define('TXT_USER_SIGN_IN', 'Sign In');
 
 // FOOTER // 
 

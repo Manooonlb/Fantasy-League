@@ -10,23 +10,24 @@
        
           <!-- HOME -->
           <h6 class="text-uppercase fw-bold mb-4">
-           <a href="" class="link-light">HOME</a>
+           <a href="" class="link-light"><?=TXT_FOOTER_HOME?></a>
           </h6>
           
       
           <!-- CONDITIONS -->
           <h6 class="text-uppercase fw-bold mb-4">
-           <a href="" class="link-light">CONDITIONS D'UTILISATION</a>
+           <a href="" class="link-light"><?=TXT_FOOTER_CONDITIONS?></a>
           </h6>
 
           <!-- FAQ -->
           <h6 class="text-uppercase fw-bold mb-4">
-            <a href="" class="link-light">FAQ</a>
+              <a href="" class="link-light"><?=TXT_FOOTER_FAQ?></a>
           </h6>
           
           <!-- CONTACT-->
-          <h6 class="text-uppercase fw-bold mb-4"><a href="contact.php" class="link-light">CONTACT</h6></a> 
-          
+          <h6 class="text-uppercase fw-bold mb-4">
+              <a href="contact.php" class="link-light"><?=TXT_FOOTER_CONTACT?></a>
+          </h6>
       
 </div>
     </div>

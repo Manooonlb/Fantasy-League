@@ -17,6 +17,16 @@ html, body {
 
 }
 
+.btn-twitch {
+    background-color: #6441a5;
+    box-shadow: 0 4px 9px -4px #6441a5;
+}
 
+.btn-twitch:hover, .btn-twitch:focus {
+    background-color: #5441a5;
+    box-shadow: 0 4px 18px -4px #6441a5;
+}
 
-
+.btn-twitch:active {
+    background-color: #4441a5;
+}

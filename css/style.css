@@ -1,5 +1,20 @@
 html, body {
     min-height: 100vh;
+   /* fallback for old browsers */
+   background: #006d8f;
+  
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: -webkit-linear-gradient(to right, rgba(0,109,143,1), rgba(123,33,159,1));
+ 
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: linear-gradient(to right, rgba(0,109,143,1), rgba(123,33,159,1))
+
+}
+
+.logo {
+    grid: flex;
+    position: center;
+
 }
 
 .btn-twitch {

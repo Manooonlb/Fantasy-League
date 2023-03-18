@@ -1,4 +1,3 @@
-<!-- Footer -->
 <footer class="text-center text-lg-start bg-dark text-muted">
 
   <!-- Section: Links  -->
@@ -19,21 +18,16 @@
           <h6 class="text-uppercase fw-bold mb-4">
            <a href="" class="link-light"><?=TXT_FOOTER_CONDITIONS?></a>
           </h6>
-          
-          
-        
-        <!-- Grid column -->
-
-        <!-- Grid column -->
 
           <!-- FAQ -->
           <h6 class="text-uppercase fw-bold mb-4">
-            <a href="" class="link-light"><?=TXT_FOOTER_FAQ?></a>
+              <a href="" class="link-light"><?=TXT_FOOTER_FAQ?></a>
           </h6>
           
           <!-- CONTACT-->
-          <h6 class="text-uppercase fw-bold mb-4"><a href="" class="link-light"><?=TXT_FOOTER_CONTACT?></h6></a> 
-          
+          <h6 class="text-uppercase fw-bold mb-4">
+              <a href="contact.php" class="link-light"><?=TXT_FOOTER_CONTACT?></a>
+          </h6>
       
 </div>
     </div>

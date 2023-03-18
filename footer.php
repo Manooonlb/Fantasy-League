@@ -1,4 +1,4 @@
-<footer class="text-center text-lg-start bg-dark text-muted fixed-bottom">
+<footer class="text-center text-lg-start bg-dark text-muted">
 
   <!-- Section: Links  -->
   <section class="text-center">
@@ -25,7 +25,7 @@
           </h6>
           
           <!-- CONTACT-->
-          <h6 class="text-uppercase fw-bold mb-4"><a href="" class="link-light">CONTACT</h6></a> 
+          <h6 class="text-uppercase fw-bold mb-4"><a href="contact.php" class="link-light">CONTACT</h6></a> 
           
       
 </div>

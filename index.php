@@ -1,9 +1,11 @@
+<?php
+require_once('header.php');
+?>
 
-<body>
+<body class="d-flex flex-column justify-content-between">
     
     <?php
     require_once('config.php');
-    require_once('header.php');
     include_once ('nav.php');
     ?>
 

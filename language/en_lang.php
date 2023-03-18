@@ -8,6 +8,9 @@ define('TXT_CONNECTION_MAIL', 'Connection by email');
 // IMAGES ALT
 define('TXT_LOGO_ALT', "The website's logo.");
 
+// NAV
+define('TXT_NAV_LEAGUES', "Leagues");
+define('TXT_NAV_MY_PROFILE', "My Profile");
 
 // FOOTER // 
 

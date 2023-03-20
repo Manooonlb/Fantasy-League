@@ -1,4 +1,24 @@
 <?php
+session_start(); // Init session
+
+// --------------------------------
+// Check if the user is logged in, if not redirect him to login page
+// --------------------------------
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if ($_POST['login'] === 'true') {
+        $_SESSION['username'] = $_POST['username'];
+        $_SESSION['email'] = $_POST['userEmail'];
+        $_SESSION['favoriteGame'] = $_POST['favoriteGame'];
+    }
+    if ($_POST['login'] === 'logout') {
+        session_destroy();
+    }
+}
+
+// --------------------------------
+// Set language preferences and call language constants
+// --------------------------------
 if(isset($_GET['lang'])){
     $lang=$_GET['lang'];
 }
@@ -18,9 +38,10 @@ else if ($lang=='en'){
 else{
     include_once('language/fr_lang.php');
 }
+
+// Set a cookie for the language
 $expire= 365*24*3600;
 setcookie('lang', $lang, time() +$expire);
-
 ?>
 
 <!DOCTYPE html>
@@ -38,6 +59,8 @@ setcookie('lang', $lang, time() +$expire);
 
 
      <link href="css/style.css" rel="stylesheet" />
+
+     <link rel="icon" type="image/x-icon" href="/assets/favicon.png" />
 
 </head>
 

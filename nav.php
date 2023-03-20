@@ -3,20 +3,20 @@
 
     <div class="container">
         <!-- Left links -->
-        <?php //if (!isset($_SESSION['username'])) { 
+        <?php if (!isset($_SESSION['username'])) { 
     ?>
 
-        <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
                 <a onclick=" lang('fr')" class="nav-link" href="?lang=fr">FR</a>
             </li>
             <li class="nav-item">
                 <a onclick="setLanguage('en')" class="nav-link" href="?lang=en">EN</a>
             </li>
-        </ul> -->
-        <?php //}
+        </ul> 
+        <?php }
 
-    //else { 
+    else { 
     ?>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -28,6 +28,10 @@
                     <a onclick="setLanguage('en')" class="nav-link" href="?lang=en">EN</a>
                 </li>
             </ul>
+
+            <div class="container justify-content-center">
+                <img class="py-3 w-25" src="assets\fantasyLeague2_trans.png" alt="<?=TXT_LOGO_ALT?>"/>
+            </div>
 
             <!-- Right elements -->
             <div class="">
@@ -47,58 +51,36 @@
                         <li>
                             <a class="dropdown-item" href="#">My profile</a>
                         </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><?= TXT_NAV_MY_LEAGUES ?></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><?= TXT_NAV_MY_STATS ?></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><?= TXT_NAV_MY_REWARDS ?></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><?= TXT_NAV_MY_FRIENDS ?></a>
+                        </li>
+
+                        </ul>
 
                     </ul>
                 </div>
             </div>
-            <li class="nav-item">
-                <a class="nav-link" href="#"><?= TXT_NAV_LOGOUT ?>
-            </li></a>
 
-
-
-
-
-
-
-
-
+            <div class="">
             <li class="nav-item">
                 <a class="nav-link" href="#"><?= TXT_NAV_LEAGUES ?></a>
             </li>
 
-            <!-- a modif -->
-            <div class="dropdown">
-                <a class="text-reset me-3  " href="#" id="navbarDropdownMenuLink" role="button"
-                    data-mdb-toggle="dropdown" aria-expanded="false">
-                    <li class="nav-link dropdown-toggle" href="#"><?= TXT_NAV_MY_PROFILE ?></li>
-
-                </a>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-
-                    <li>
-                        <a class="dropdown-item" href="#"><?= TXT_NAV_MY_LEAGUES ?></a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="#"><?= TXT_NAV_MY_STATS ?></a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="#"><?= TXT_NAV_MY_REWARDS ?></a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="#"><?= TXT_NAV_MY_FRIENDS ?></a>
-                    </li>
-
-                </ul>
-            </div>
-
             <li class="nav-item">
                 <a class="nav-link" href="#"><?= TXT_NAV_LOGOUT ?>
             </li></a>
-        </ul>
-        <?php //}
-    ?>
-    </div>
 
+            </div>
+
+        } 
+    </div>
 </nav>
-<!-- Navbar -->

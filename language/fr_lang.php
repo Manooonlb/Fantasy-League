@@ -21,6 +21,18 @@ define('TXT_NAV_LOGOUT', "Déconnexion");
 
 
 
+// USER
+
+define('TXT_LOGOUT', 'Déconnexion');
+define('TXT_LOGOUT_SUCCESS', "Vous avez bien été déconnecté.e.");
+define('TXT_REDIRECTION', "Vous allez être maintenant redirigé.e vers la page de connexion.");
+define('TXT_USER_EMAIL', 'Courriel');
+define('TXT_USER_USERNAME', 'Nom d\'utilisateur');	
+define('TXT_USER_FAVE_GAME', 'Jeu favori');
+define('TXT_USER_REMEMBER_ME', 'Se souvenir de moi');
+define('TXT_USER_FORGOT_PASSWORD', 'Mot de passe oublié ?');
+define('TXT_USER_SIGN_IN', 'Se connecter');
+
 // FOOTER // 
 
 define('TXT_FOOTER_HOME', 'Accueil');

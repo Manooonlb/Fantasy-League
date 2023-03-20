@@ -38,3 +38,6 @@ define('TXT_FOOTER_HOME', 'Home');
 define('TXT_FOOTER_FAQ', 'FAQ');
 define('TXT_FOOTER_CONDITIONS', 'Terms of use');
 define('TXT_FOOTER_CONTACT', 'Contact');
+define('TXT_FOOTER_LEAGUES', 'Leagues');
+define('TXT_FOOTER_MATCHUP', 'Matchup');
+define('TXT_FOOTER_REWARDS', "Rewards");

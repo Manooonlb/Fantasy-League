@@ -13,6 +13,7 @@ define('TXT_LOGO_ALT', "Le logo du site.");
 // NAV
 define('TXT_NAV_LEAGUES', "Ligues");
 define('TXT_NAV_MY_PROFILE', "Mon Profil");
+define('TXT_NAV_LOGOUT', "Déconnexion");
 
 // FOOTER // 
 
@@ -20,5 +21,3 @@ define('TXT_FOOTER_HOME','Accueil');
 define('TXT_FOOTER_FAQ','FAQ');
 define('TXT_FOOTER_CONDITIONS','Conditions d\'utilisation');
 define('TXT_FOOTER_CONTACT','Contact');
-?>
-

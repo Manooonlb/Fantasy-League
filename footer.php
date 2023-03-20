@@ -16,12 +16,12 @@
       
           <!-- CONDITIONS -->
           <h6 class="text-uppercase fw-bold mb-4">
-           <a href="" class="link-light"><?=TXT_FOOTER_CONDITIONS?></a>
+           <a href="conditions_utilisations.php" class="link-light"><?=TXT_FOOTER_CONDITIONS?></a>
           </h6>
 
           <!-- FAQ -->
           <h6 class="text-uppercase fw-bold mb-4">
-              <a href="" class="link-light"><?=TXT_FOOTER_FAQ?></a>
+              <a href="faq.php" class="link-light"><?=TXT_FOOTER_FAQ?></a>
           </h6>
           
           <!-- CONTACT-->

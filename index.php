@@ -14,14 +14,14 @@ require_once('header.php');
         include_once('login.php');
     }
     else {
-        //include_once('landing_page.php');
-        ?> <main class="text-warning text-opacity-75 text-center"> <?php
-        echo "<p>Bienvenue, ".$_SESSION['username'].", your registered email address is ".$_SESSION['email']." and your favorite game is ".$_SESSION['favoriteGame']." !</p>"; // This isn't translated because this is only a temporary/debug message
+        include_once('landing_page.php');
+        //echo '<main class="text-warning text-opacity-75 text-center">';
+        //echo "<p>Bienvenue, ".$_SESSION['username'].", your registered email address is ".$_SESSION['email']." and your favorite game is ".$_SESSION['favoriteGame']." !</p>"; // This isn't translated because this is only a temporary/debug message
         ?>
-        <form action="logout.php" method="post" class="container">
+        <!--<form action="logout.php" method="post" class="container">
             <button type="submit" name="login" value="logout" class="btn btn-danger"><?=TXT_LOGOUT?></button>
         </form>
-        </main>
+        </main>-->
         <?php
     }
     //include_once('functions.php');

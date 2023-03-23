@@ -10,7 +10,7 @@ require_once('header.php');
   <div class="accordion accordion-flush bg-dark accordion-borderless w-50 my-2" id="accordionFAQ">
     <div class="accordion-item ">
       <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button accordion-flush bg-dark text-white-50 bg-dark" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseOne"
+        <button class="accordion-button accordion-flush bg-dark text-white-50 bg-dark btn btn-light shadow-0" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseOne"
           aria-expanded="true" aria-controls="collapseOne">
           FAQ #1
         </button>
@@ -28,7 +28,7 @@ require_once('header.php');
     </div>
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingTwo">
-        <button class="accordion-button collapsed accordion-flush bg-dark text-white-50 bg-dark" type="button" data-mdb-toggle="collapse"
+        <button class="accordion-button collapsed accordion-flush bg-dark text-white-50 bg-dark btn btn-light shadow-0" type="button" data-mdb-toggle="collapse"
           data-mdb-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           FAQ #2
         </button>
@@ -46,7 +46,7 @@ require_once('header.php');
     </div>
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingThree">
-        <button class="accordion-button collapsed accordion-flush bg-dark text-white-50 bg-dark" type="button" data-mdb-toggle="collapse"
+        <button class="accordion-button collapsed accordion-flush bg-dark text-white-50 bg-dark btn btn-light shadow-0" type="button" data-mdb-toggle="collapse"
           data-mdb-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           FAQ #3
         </button>
@@ -64,7 +64,7 @@ require_once('header.php');
     </div>
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingFour">
-        <button class="accordion-button collapsed accordion-flush bg-dark text-white-50 bg-dark" type="button" data-mdb-toggle="collapse"
+        <button class="accordion-button collapsed accordion-flush bg-dark text-white-50 bg-dark btn btn-light shadow-0" type="button" data-mdb-toggle="collapse"
           data-mdb-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
           FAQ #4
         </button>

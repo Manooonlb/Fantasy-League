@@ -32,6 +32,7 @@ define('TXT_USER_REMEMBER_ME', 'Remember Me?');
 define('TXT_USER_FORGOT_PASSWORD', 'Forgot Password?');
 define('TXT_USER_SIGN_IN', 'Sign In');
 
+
 // FOOTER // 
 
 define('TXT_FOOTER_HOME', 'Home');

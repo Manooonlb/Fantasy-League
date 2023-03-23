@@ -32,7 +32,7 @@
 
         <!-- Notifications -->
         <div class="navbar-nav ms-auto">
-            <img src="assets/pink_diamond.png" height="25">
+            <img src="assets/pink_diamond.png" height="25px">
             <span class="badge">1524</span>
             <img src="assets/money.png" height="25">
             <span class="badge">80</span>
@@ -40,11 +40,11 @@
             <!-- Avatar -->
             <div class="dropdown">
                 <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25" alt="Black and White Portrait of a Man" loading="lazy" />
+                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/16.webp" class="rounded-circle" height="25" alt="Black and White Portrait of a Man" loading="lazy" />
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
                     <li>
-                        <a class="dropdown-item" href="#"><?= TXT_NAV_MY_PROFILE ?></a>
+                        <a class="dropdown-item" href="profil.php"><?= TXT_NAV_MY_PROFILE ?></a>
                     </li>
                     <li>
                         <a class="dropdown-item" href="#"><?= TXT_NAV_MY_LEAGUES ?></a>

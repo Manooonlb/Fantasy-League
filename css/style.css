@@ -1,26 +1,150 @@
-html, body {
-    min-height: 100vh;
-   /* fallback for old browsers */
-   background: #006d8f;
-  
-   /* Chrome 10-25, Safari 5.1-6 */
-   background: -webkit-linear-gradient(to right, rgba(0,109,143,1), rgba(123,33,159,1));
- 
-   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   background: linear-gradient(to right, rgba(0,109,143,1), rgba(123,33,159,1))
+html,
+body:not(#profil) {
+  min-height: 100vh;
+  /* fallback for old browsers */
+  background: #006d8f;
 
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(0, 109, 143, 1),
+    rgba(123, 33, 159, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(0, 109, 143, 1),
+    rgba(123, 33, 159, 1)
+  );
 }
 
 .btn-twitch {
-    background-color: #6441a5;
-    box-shadow: 0 4px 9px -4px #6441a5;
+  background-color: #6441a5;
+  box-shadow: 0 4px 9px -4px #6441a5;
 }
 
-.btn-twitch:hover, .btn-twitch:focus {
-    background-color: #5441a5;
-    box-shadow: 0 4px 18px -4px #6441a5;
+.btn-twitch:hover,
+.btn-twitch:focus {
+  background-color: #5441a5;
+  box-shadow: 0 4px 18px -4px #6441a5;
 }
 
 .btn-twitch:active {
-    background-color: #4441a5;
+  background-color: #4441a5;
+}
+
+#usernameProfil {
+  padding-top: 5%;
+  padding-left: 20%;
+}
+
+.profil {
+  width: 60%;
+  height: 35%;
+  display: flex;
+}
+
+.profilPicture {
+  width: 20%;
+  height: 35%;
+  padding-left: 5%;
+}
+
+#profilLeagues {
+  display: flex;
+}
+
+#profilRewards {
+  display: flex;
+}
+#statsLeagueProfil {
+  display: flex;
+}
+
+.dark {
+  background: #110f16;
+}
+
+#pageHeaderTitle {
+  margin: 2rem 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.postcard {
+  flex-wrap: wrap;
+  display: flex;
+
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+  border-radius: 10px;
+  margin-top: 10rem;
+  overflow: hidden;
+  position: relative;
+  color: #ffffff;
+}
+
+.postcard__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.postcard__bar {
+  width: 50px;
+  height: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #424242;
+  transition: width 0.2s ease;
+}
+
+.postcard__text {
+  padding: 1.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.postcard__tagbox {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 14px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.rewardIcon {
+  width: 30px;
+  display: flex;
+}
+
+.tag__item {
+  list-style-type: none;
+  display: inline-block;
+  background: rgba(83, 83, 83, 0.4);
+  border-radius: 3px;
+  padding: 2.5px 10px 2.5px;
+  margin: 0 5px 5px 0;
+  cursor: default;
+  user-select: none;
+  transition: background-color 0.3s;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leagues{
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 620px;
+  background: rgba(83, 83, 83, 0.4);
+  width: 400px;
+  height: 00px;
 }

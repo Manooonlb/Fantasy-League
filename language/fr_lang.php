@@ -33,6 +33,7 @@ define('TXT_USER_REMEMBER_ME', 'Se souvenir de moi');
 define('TXT_USER_FORGOT_PASSWORD', 'Mot de passe oublié ?');
 define('TXT_USER_SIGN_IN', 'Se connecter');
 
+
 // FOOTER // 
 
 define('TXT_FOOTER_HOME', 'Accueil');

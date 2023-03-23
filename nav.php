@@ -47,16 +47,16 @@
                         <a class="dropdown-item" href="profil.php"><?= TXT_NAV_MY_PROFILE ?></a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="#"><?= TXT_NAV_MY_LEAGUES ?></a>
+                        <a class="dropdown-item" href="/myleagues.php"><?= TXT_NAV_MY_LEAGUES ?></a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="#"><?= TXT_NAV_MY_STATS ?></a>
+                        <a class="dropdown-item" href="/mystats.php"><?= TXT_NAV_MY_STATS ?></a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="#"><?= TXT_NAV_MY_REWARDS ?></a>
+                        <a class="dropdown-item" href="/myrewards.php"><?= TXT_NAV_MY_REWARDS ?></a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="#"><?= TXT_NAV_MY_FRIENDS ?></a>
+                        <a class="dropdown-item" href="/myfriends.php"><?= TXT_NAV_MY_FRIENDS ?></a>
                     </li>
                     </li>
                     <li>

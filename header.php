@@ -1,4 +1,5 @@
 <?php
+require_once('src/User.php');
 session_start(); // Init session
 
 // --------------------------------

@@ -113,6 +113,11 @@ $teams = [
         echo "</tr>";
         echo "</tfoot>";
     }
+
+    require_once('League.php');
+
+    $league = new League(1);
+    $league->buildScoreboard();
     ?>
     </tbody>
 </table>

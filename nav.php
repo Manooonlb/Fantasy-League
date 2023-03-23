@@ -3,8 +3,8 @@
 
     <div class="container">
         <!-- Left links -->
-        <?php if (!isset($_SESSION['username'])) { 
-    ?>
+        <?php if (!isset($_SESSION['username'])) {
+        ?>
 
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -13,11 +13,9 @@
             <li class="nav-item">
                 <a onclick="setLanguage('en')" class="nav-link" href="?lang=en">EN</a>
             </li>
-        </ul> 
-        <?php }
-
-    else { 
-    ?>
+        </ul>
+        <?php } else {
+        ?>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
@@ -30,7 +28,7 @@
             </ul>
 
             <div class="container justify-content-center">
-                <img class="py-3 w-25" src="assets\fantasyLeague2_trans.png" alt="<?=TXT_LOGO_ALT?>"/>
+                <img class="py-3 w-25" src="assets\fantasyLeague2_trans.png" alt="<?= TXT_LOGO_ALT ?>" />
             </div>
 
             <!-- Right elements -->
@@ -41,11 +39,13 @@
                 <span class="badge">1524</span>
                 <img src="assets/money.png" height="25">
                 <span class="badge">80</span>
-                
+
                 <!-- Avatar -->
                 <div class="dropdown">
-                    <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25" alt="Black and White Portrait of a Man" loading="lazy" />
+                    <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+                        id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25"
+                            alt="Black and White Portrait of a Man" loading="lazy" />
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
                         <li>
@@ -64,23 +64,23 @@
                             <a class="dropdown-item" href="#"><?= TXT_NAV_MY_FRIENDS ?></a>
                         </li>
 
-                        </ul>
-
                     </ul>
-                </div>
-            </div>
 
-            <div class="">
-            <li class="nav-item">
-                <a class="nav-link" href="#"><?= TXT_NAV_LEAGUES ?></a>
-            </li>
+        </ul>
+    </div>
+    </div>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#"><?= TXT_NAV_LOGOUT ?>
-            </li></a>
+    <div class="">
+        <li class="nav-item">
+            <a class="nav-link" href="#"><?= TXT_NAV_LEAGUES ?></a>
+        </li>
 
-            </div>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><?= TXT_NAV_LOGOUT ?>
+        </li></a>
 
-        } 
+    </div>
+
+    <?php } ?>
     </div>
 </nav>

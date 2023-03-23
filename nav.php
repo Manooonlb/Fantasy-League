@@ -25,7 +25,7 @@
     </div>
 
     <div class="container justify-content-center">
-        <img class="py-3 w-25" src="assets\fantasyLeague2_trans.png" alt="<?= TXT_LOGO_ALT ?>" />
+        <a href="index.php"> <img class="py-3 w-25" src="assets\fantasyLeague2_trans.png"  alt="<?= TXT_LOGO_ALT ?>"></a>
     </div>
 
     <div class="container">

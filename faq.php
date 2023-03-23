@@ -8,7 +8,7 @@ require_once('header.php');
   ?>
   <main class="d-flex justify-content-center">
   <div class="accordion accordion-flush bg-dark accordion-borderless w-50 my-2" id="accordionFAQ">
-    <div class="accordion-item">
+    <div class="accordion-item ">
       <h2 class="accordion-header" id="headingOne">
         <button class="accordion-button accordion-flush bg-dark text-white-50 bg-dark" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseOne"
           aria-expanded="true" aria-controls="collapseOne">
@@ -82,7 +82,7 @@ require_once('header.php');
     </div>
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingFive">
-        <button class="accordion-button collapsed accordion-flush bg-dark text-white-50 bg-dark" type="button" data-mdb-toggle="collapse"
+        <button class="accordion-button collapsed accordion-flush bg-dark text-white-50 bg-dark btn btn-light shadow-0" type="button" data-mdb-toggle="collapse"
           data-mdb-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
           FAQ #5
         </button>

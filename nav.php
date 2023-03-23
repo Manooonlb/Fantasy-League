@@ -62,7 +62,7 @@
                     </li>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="#"><?= TXT_LOGOUT ?></a>
+                        <a class="dropdown-item" href="/logout.php"><?= TXT_LOGOUT ?></a>
                     </li>
 
                 </ul>

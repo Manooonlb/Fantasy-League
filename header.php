@@ -40,5 +40,3 @@ setcookie('lang', $lang, time() +$expire);
      <link href="css/style.css" rel="stylesheet" />
 
 </head>
-
-

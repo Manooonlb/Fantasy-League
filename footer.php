@@ -21,7 +21,7 @@
 
           <!-- FAQ -->
           <h6 class="text-uppercase fw-bold mb-4">
-              <a href="" class="link-light"><?=TXT_FOOTER_FAQ?></a>
+              <a href="faq.php" class="link-light"><?=TXT_FOOTER_FAQ?></a>
           </h6>
           
           <!-- CONTACT-->

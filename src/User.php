@@ -16,4 +16,9 @@ class User
     {
         return $this->myLeagues;
     }
+
+    public function setMyLeagues(array $leagues): void
+    {
+        $this->myLeagues = $leagues;
+    }
 }

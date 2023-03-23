@@ -1,5 +1,17 @@
 <?php
 require_once('header.php');
+if (isset($_GET['id'])){
+    $pdo=new \PDO(DSN, USER, PASS);
+    $id=$_GET['id'];
+    $query="SELECT * FROM user WHERE id= $id";
+
+    $statement= $pdo->query($query);
+    $statement->setFetchMode(\PDO::FETCH_CLASS, "User");
+    $user = $statement->fetch(\PDO::FETCH_CLASS);
+    $statement->closeCursor();
+}
+
+
 ?>
 
 <body class="d-flex flex-column justify-content-between text-center" id="profil">
@@ -10,10 +22,10 @@ require_once('header.php');
         <div class="d-flex justify-content-center">
             <section class="d-flex w-100">
                 <div class="container py-4 d-flex flex-column justify-content-start gap-4">
-                    <!-- <h1 class="h1 text-center" id="pageHeaderTitle"><?= $_SESSION['username'] ?></h1> -->
-                    <article class="postcard dark red justify-content ">
+                    <h1 class="h1 text-center" id="pageHeaderTitle"><?= $user->getUsername(); ?></h1>
+                    <article class="postcard dark red d-flex justify-content-center">
                         <div class="postcard__img_link">
-                           <a href=""> <img class="postcard__img" src="https://mdbcdn.b-cdn.net/img/new/avatars/16.webp" alt="Photo de profil" href="" /></a>
+                           <a href=""> <img class="postcard__img" style="width: 200px;" src="<?= $user->getAvatar()?>" alt="Photo de profil" href="" /></a>
                         </div>
                         <div class="postcard__text align-item-center">
                             <div id="date">
